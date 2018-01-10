@@ -17,8 +17,7 @@ class TabbedView extends Component {
 
   static propTypes = {
     navigationState: PropTypes.object.isRequired,
-    renderScene: PropTypes.func.isRequired,
-    style: ViewPropTypes.style,
+    renderScene: PropTypes.func.isRequired
   };
 
   constructor(props, context) {

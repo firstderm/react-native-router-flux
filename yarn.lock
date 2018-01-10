@@ -3799,9 +3799,9 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-experimental-navigation@^0.29.1:
+"react-native-experimental-navigation@https://github.com/firstderm/react-native-experimental-navigation":
   version "0.29.1"
-  resolved "https://registry.yarnpkg.com/react-native-experimental-navigation/-/react-native-experimental-navigation-0.29.1.tgz#fa14ec95ee5471cfb37f917316073b300f884e48"
+  resolved "https://github.com/firstderm/react-native-experimental-navigation#422c8f1dfdc4b360a81206c61c26ff71ec9fde45"
   dependencies:
     babel-plugin-syntax-flow "^6.8.0"
     babel-plugin-transform-flow-strip-types "^6.8.0"

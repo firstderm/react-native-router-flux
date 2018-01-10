@@ -50,7 +50,7 @@ class Router extends Component {
   }
 
   componentDidMount() {
-    BackHandler.addEventListener('hardwareBackPress', this.handleBackAndroid);
+    // BackHandler.addEventListener('hardwareBackPress', this.handleBackAndroid);
   }
 
   componentWillReceiveProps(props) {
@@ -59,7 +59,7 @@ class Router extends Component {
   }
 
   componentWillUnmount() {
-    BackHandler.removeEventListener('hardwareBackPress', this.handleBackAndroid);
+    // BackHandler.removeEventListener('hardwareBackPress', this.handleBackAndroid);
   }
 
   handleBackAndroid() {
